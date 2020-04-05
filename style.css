@@ -1,0 +1,36 @@
+* {
+    margin: 0;  
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.dailyplanner {
+    text-align: center;
+    border: 1px solid black;
+}
+
+.past {
+    background-color: red;
+}
+
+.future {
+    background-color: yellow;
+}
+
+.current {
+    background-color: lightgreen;
+}
+
+.times {
+    font-size: 14px;
+    background-color: #f7f7f7;
+    border-left: 1px solid rgba(0 ,0 ,0 , 0.25);
+}
+
+.times > div {
+    border-bottom: 1px solid rgba(0 ,0 ,0 , 0.25);
+}
+
+.outline {
+    width: 1000px;
+}
